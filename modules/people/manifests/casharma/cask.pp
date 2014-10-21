@@ -6,8 +6,9 @@ class people::casharma::cask {
     'handbrakebatch',
     'hipchat',
     'macdown',
-    'skype',
     'screenflow',
+    'skype',
+    'spectacle',
     'utorrent'
   ]
 
