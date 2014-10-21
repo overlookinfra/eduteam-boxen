@@ -8,7 +8,7 @@ class people::casharma::brew {
  
   $formulae = [
     'tree',
-    'wget',
+    'wget'
   ]
   package { $formulae :
    ensure => present,
