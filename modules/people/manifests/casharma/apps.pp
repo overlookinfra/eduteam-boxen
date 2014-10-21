@@ -8,4 +8,9 @@ class people::casharma::apps {
   include hipchat
   # FIXME - no download available for vmware_fusion 6.0.5
   #include vmware_fusion
+  package { 'Retina DisplayMenu':
+    ensure   => installed,
+    source   => 'https://dl.dropbox.com/u/87351306/RDM.tar.gz',
+    provider => 'compressed_app',
+  }
 }
