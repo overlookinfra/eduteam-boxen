@@ -72,6 +72,8 @@ github "seil",   "1.0.2"
 github "silverlight",  "1.0.1"
 github "virtualbox",  "1.0.13"
 github "textual",  "4.2.0"
+github "notational_velocity", "1.1.2"
+github "packer",    "1.3.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.

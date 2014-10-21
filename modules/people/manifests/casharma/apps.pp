@@ -18,6 +18,8 @@ class people::casharma::apps {
   include silverlight
   include virtualbox
   include textual
+  include notational_velocity
+  include packer
 
   package { 'Retina DisplayMenu':
     ensure   => installed,
