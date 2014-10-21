@@ -66,6 +66,7 @@ github "tunnelblick", "1.0.7"
 github "hipchat",     "1.1.3"
 github "vmware_fusion", "1.2.0"
 github "vagrant",     "3.2.0"
+github "better_touch_tools",     "3.0.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.

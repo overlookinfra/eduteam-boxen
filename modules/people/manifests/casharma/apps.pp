@@ -10,6 +10,8 @@ class people::casharma::apps {
   #include vmware_fusion
   # FIXME add vagrant fusion provider, with license
   include vagrant
+  include better_touch_tools
+
   package { 'Retina DisplayMenu':
     ensure   => installed,
     name     => 'RDM',
