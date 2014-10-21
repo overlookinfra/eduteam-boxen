@@ -2,6 +2,7 @@ class people::casharma {
   notify { "doing casharma's bidding": }
 
   include people::casharma::apps
+  include people::casharma::brew
 
   # set my shell to zsh
   include zsh

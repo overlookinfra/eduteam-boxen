@@ -59,6 +59,11 @@ github "xquartz",     "1.2.1"
 github "zsh", 	      "1.0.0"
 github "osx", 	      "2.7.1"
 github "chrome",      "1.2.0"
+github "cloudapp",    "1.0.2"
+github "java",        "1.7.1"
+github "iterm2",      "1.2.2"
+github "tunnelblick", "1.0.7"
+github "hipchat",     "1.1.3"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
