@@ -3,6 +3,7 @@ class people::casharma {
 
   include people::casharma::apps
   include people::casharma::brew
+  include people::casharma::cask
 
   # set my shell to zsh
   include zsh
