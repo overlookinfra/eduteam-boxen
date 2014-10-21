@@ -6,5 +6,6 @@ class people::casharma::apps {
   # FIXME add my colorscheme, later.
   include tunnelblick
   include hipchat
-  include vmware_fusion
+  # FIXME - no download available for vmware_fusion 6.0.5
+  #include vmware_fusion
 }
