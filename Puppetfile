@@ -64,6 +64,7 @@ github "java",        "1.7.1"
 github "iterm2",      "1.2.2"
 github "tunnelblick", "1.0.7"
 github "hipchat",     "1.1.3"
+github "vmware_fusion", "1.2.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
