@@ -1,6 +1,8 @@
 class people::casharma::brew {
  $formulae = [
-   'tree'
+   'tree',
+   'wget',
+   'macdown'
  ]
  package { $formulae :
   ensure => present,
