@@ -1,9 +1,16 @@
 class people::casharma::brew {
- $formulae = [
-   'tree',
-   'wget',
- ]
- package { $formulae :
-  ensure => present,
- }
+
+  include brewcask
+ 
+  Package <| provider == 'brewcask |> {
+   install_options => "--appdir='/Applications'"
+  }
+ 
+  $formulae = [
+    'tree',
+    'wget',
+  ]
+  package { $formulae :
+   ensure => present,
+  }
 }
