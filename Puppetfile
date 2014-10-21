@@ -67,6 +67,11 @@ github "hipchat",     "1.1.3"
 github "vmware_fusion", "1.2.0"
 github "vagrant",     "3.2.0"
 github "better_touch_tools",     "3.0.0"
+github "karabiner",   "1.0.6"
+github "seil",   "1.0.2"
+github "silverlight",  "1.0.1"
+github "virtualbox",  "1.0.13"
+github "textual",  "4.2.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.

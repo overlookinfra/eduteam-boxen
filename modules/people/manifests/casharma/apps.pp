@@ -11,6 +11,13 @@ class people::casharma::apps {
   # FIXME add vagrant fusion provider, with license
   include vagrant
   include better_touch_tools
+  # FIXME add rules/config for karabiner
+  include karabiner
+  # FIXME add rules/config for seil
+  include seil
+  include silverlight
+  include virtualbox
+  include textual
 
   package { 'Retina DisplayMenu':
     ensure   => installed,
