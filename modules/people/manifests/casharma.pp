@@ -4,4 +4,13 @@ class people::casharma {
   # set my shell to zsh
   include zsh
 
+  # git config 
+  git::config::global { 'user.name':
+    value => 'Carthik Sharma',
+  }
+
+  git::config::global {'user.email':
+    value => 'carthik@puppetlabs.com',
+  }
+
 }
