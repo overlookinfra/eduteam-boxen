@@ -24,7 +24,6 @@ class people::casharma::apps {
   include copy
   include licecap
   include utorrent
-  include cyberduck
   include spectacle
 
   package { 'Retina DisplayMenu':

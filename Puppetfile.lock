@@ -24,6 +24,11 @@ GITHUBTARBALL
     copy (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-cyberduck
+  specs:
+    cyberduck (1.0.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-dnsmasq
   specs:
     dnsmasq (2.0.0)
@@ -144,6 +149,11 @@ GITHUBTARBALL
     silverlight (1.0.1)
 
 GITHUBTARBALL
+  remote: boxen/puppet-spectacle
+  specs:
+    spectacle (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-sudo
   specs:
     sudo (1.0.0)
@@ -157,6 +167,11 @@ GITHUBTARBALL
   remote: boxen/puppet-tunnelblick
   specs:
     tunnelblick (1.0.7)
+
+GITHUBTARBALL
+  remote: boxen/puppet-utorrent
+  specs:
+    utorrent (1.1.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-vagrant
@@ -209,6 +224,7 @@ DEPENDENCIES
   chrome (= 1.2.0)
   cloudapp (= 1.0.2)
   copy (= 1.0.0)
+  cyberduck (= 1.0.1)
   dnsmasq (= 2.0.0)
   foreman (= 1.2.0)
   gcc (= 2.2.0)
@@ -235,10 +251,12 @@ DEPENDENCIES
   ruby (= 8.1.4)
   seil (= 1.0.2)
   silverlight (= 1.0.1)
+  spectacle (= 1.0.0)
   stdlib (= 4.2.1)
   sudo (= 1.0.0)
   textual (= 4.2.0)
   tunnelblick (= 1.0.7)
+  utorrent (= 1.1.1)
   vagrant (= 3.2.0)
   virtualbox (= 1.0.13)
   vlc (= 1.1.0)
