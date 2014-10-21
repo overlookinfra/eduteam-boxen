@@ -2,6 +2,7 @@ class people::casharma::cask {
 
   $casks = [
     'cyberduck',
+    'day-o',
     'handbrakebatch',
     'hipchat',
     'macdown',
