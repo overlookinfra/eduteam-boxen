@@ -58,6 +58,7 @@ github "sudo",        "1.0.0"
 github "xquartz",     "1.2.1"
 github "zsh", 	      "1.0.0"
 github "osx", 	      "2.7.1"
+github "chrome",      "1.2.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.

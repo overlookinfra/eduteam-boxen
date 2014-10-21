@@ -1,6 +1,8 @@
 class people::casharma {
-  notify { "doing @casharma's bidding": }
-	
+  notify { "doing casharma's bidding": }
+
+  include people::casharma::apps
+
   # set my shell to zsh
   include zsh
 
