@@ -8,6 +8,8 @@ class people::casharma::apps {
   include hipchat
   # FIXME - no download available for vmware_fusion 6.0.5
   #include vmware_fusion
+  # FIXME add vagrant fusion provider, with license
+  include vagrant
   package { 'Retina DisplayMenu':
     ensure   => installed,
     name     => 'RDM',
