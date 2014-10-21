@@ -20,6 +20,9 @@ class people::casharma::apps {
   include textual
   include notational_velocity
   include packer
+  include vlc
+  include copy
+  include licecap
 
   package { 'Retina DisplayMenu':
     ensure   => installed,
