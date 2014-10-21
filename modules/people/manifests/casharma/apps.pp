@@ -10,6 +10,7 @@ class people::casharma::apps {
   #include vmware_fusion
   package { 'Retina DisplayMenu':
     ensure   => installed,
+    name     => 'RDM',
     source   => 'https://dl.dropbox.com/u/87351306/RDM.tar.gz',
     provider => 'compressed_app',
   }
