@@ -1,3 +1,10 @@
+GIT
+  remote: git://github.com/phinze/puppet-brewcask.git
+  ref: master
+  sha: f8c4a9955cccf453e7070bb86d3a0fe07fbb94d8
+  specs:
+    brewcask (0.0.1)
+
 GITHUBTARBALL
   remote: boxen/puppet-better_touch_tools
   specs:
@@ -211,6 +218,7 @@ GITHUBTARBALL
 DEPENDENCIES
   better_touch_tools (= 3.0.0)
   boxen (= 3.7.0)
+  brewcask (>= 0)
   chrome (= 1.2.0)
   cloudapp (= 1.0.2)
   copy (= 1.0.0)
