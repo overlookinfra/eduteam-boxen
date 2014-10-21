@@ -23,7 +23,6 @@ class people::casharma::apps {
   include vlc
   include copy
   include licecap
-  include spectacle
 
   package { 'Retina DisplayMenu':
     ensure   => installed,

@@ -81,6 +81,5 @@ github "packer",    "1.3.0"
 github "vlc",    "1.1.0"
 github "copy", "1.0.0"
 github "licecap", "1.0.1"
-github "spectacle", "1.0.0"
 
-mod "brewcask", :git => "git://github.com/phinze/puppet-brewcask.git"
+mod "casharma-brewcask", :git => "git://github.com/phinze/puppet-brewcask.git"
