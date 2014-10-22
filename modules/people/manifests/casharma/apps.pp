@@ -19,7 +19,6 @@ class people::casharma::apps {
   include virtualbox
   include textual
   include notational_velocity
-  include packer
   include vlc
   include copy
   include licecap
