@@ -16,6 +16,10 @@ class people::casharma::preferences {
   # Use the Dark UI
   # magnification for the dock
   # minimize windows into app icon
-  # disable date/time display in menu bar
+  # disable date/time display in menu bar - but after day-o honors dark
+  # battery in menu bar - show %
+  # always show scrollbar
+  # ask to keep changes when quitting an app
+
   
 }
