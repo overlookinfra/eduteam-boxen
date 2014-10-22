@@ -5,8 +5,6 @@
 "vlc::version": "2.1.4"
 "osx::dock::icon_size": "18"
 "osx::dock::hot_corners::bottom_left": "Desktop"
-"osx::dock::hot_corners::bottom_right": "Start Screen Saver'
+"osx::dock::hot_corners::bottom_right": "Start Screen Saver"
 "osx::dock::position::position": "left"
 "osx::global::natural_mouse_scrolling::enabled": "false"
-
-
