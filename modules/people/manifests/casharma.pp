@@ -4,6 +4,8 @@ class people::casharma {
   include people::casharma::apps
   include people::casharma::brew
   include people::casharma::cask
+  include people::casharma::preferences
+
 
   # set my shell to zsh
   include zsh
