@@ -1,5 +1,7 @@
 class people::casharma::cask {
 
+  include brewcask
+
   $casks = [
     'caffeine',
     'cord',
