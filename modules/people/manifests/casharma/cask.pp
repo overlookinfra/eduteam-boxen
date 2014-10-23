@@ -14,7 +14,7 @@ class people::casharma::cask {
     'screenflow',
     'skype',
     'spectacle',
-    'twitterific',
+    'twitterrific',
     'utorrent'
   ]
 
