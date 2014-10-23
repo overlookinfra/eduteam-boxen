@@ -20,6 +20,7 @@ class people::casharma::preferences {
   # battery in menu bar - show %
   # always show scrollbar
   # ask to keep changes when quitting an app
+  # Prefs -> KB -> Shortcuts -> Services -> New Terminal at Folder.
 
   
 }

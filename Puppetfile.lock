@@ -116,11 +116,6 @@ GITHUBTARBALL
     osx (2.7.1)
 
 GITHUBTARBALL
-  remote: boxen/puppet-packer
-  specs:
-    packer (1.3.0)
-
-GITHUBTARBALL
   remote: boxen/puppet-phantomjs
   specs:
     phantomjs (2.3.0)
@@ -236,7 +231,6 @@ DEPENDENCIES
   notational_velocity (= 1.1.2)
   openssl (= 1.0.0)
   osx (= 2.7.1)
-  packer (= 1.3.0)
   phantomjs (= 2.3.0)
   pkgconfig (= 1.0.0)
   repository (= 2.3.0)
