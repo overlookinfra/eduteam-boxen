@@ -5,6 +5,7 @@ class people::casharma::brew {
     'gnupg',
     'graphviz',
     'fontconfig',
+    'fontforge',
     'imagemagick',
     'jasper',
     'qemu',
