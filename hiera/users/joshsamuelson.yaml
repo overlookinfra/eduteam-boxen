@@ -1,21 +1,42 @@
-"osx::dock::icon_size": "18"
-"osx::dock::hot_corners::bottom_left": "Desktop"
-"osx::dock::hot_corners::bottom_right": "Start Screen Saver"
-"osx::dock::position::position": "left"
-"osx::global::natural_mouse_scrolling::enabled": "true"
-"people::joshsamuelson::cask::casks":
-  - 'caffeine'
-  - 'cord'
-  - 'cyberduck'
-  - 'day-o'
-  - 'handbrakebatch'
-  - 'hipchat'
-  - 'launchbar'
-  - 'macdown'
-  - 'mplayer-osx-extended'
-  - 'private-internet-access'
-  - 'screenflow'
-  - 'skype'
-  - 'spectacle'
-  - 'twitterrific'
-  - 'utorrent'
+osx::dock::icon_size: 18
+osx::dock::hot_corners::bottom_left: Desktop
+osx::dock::hot_corners::bottom_right: Start Screen Saver
+osx::dock::position::position: left
+osx::global::natural_mouse_scrolling::enabled: true
+people::joshsamuelson::cask::casks:
+  - caffeine
+  - cord
+  - cyberduck
+  - day-o
+  - handbrakebatch
+  - hipchat
+  - launchbar
+  - macdown
+  - mplayer-osx-extended
+  - private-internet-access
+  - screenflow
+  - skype
+  - spectacle
+  - twitterrific
+  - utorrent   
+people::joshsamuelson::apps::boxen_apps:
+  - chrome
+  - cloudapp
+  - java
+  - iterm2::stable
+  - tunnelblick
+  - hipchat
+  # FIXME add vagrant fusion provider, with license
+  - vagrant
+  - better_touch_tools
+  # FIXME add rules/config for karabiner
+  - karabiner
+  # FIXME add rules/config for seil
+  - seil
+  - silverlight
+  - virtualbox
+  - textual
+  - notational_velocity
+  - vlc
+  - copy
+  - licecap

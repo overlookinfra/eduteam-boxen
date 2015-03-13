@@ -1,24 +1,7 @@
 class people::joshsamuelson::apps {
-  include chrome
-  include cloudapp
-  include java
-  include iterm2::stable
-  include tunnelblick
-  include hipchat
-  # FIXME add vagrant fusion provider, with license
-  include vagrant
-  include better_touch_tools
-  # FIXME add rules/config for karabiner
-  include karabiner
-  # FIXME add rules/config for seil
-  include seil
-  include silverlight
-  include virtualbox
-  include textual
-  include notational_velocity
-  include vlc
-  include copy
-  include licecap
+  $boxen_apps = hiera('people::joshsamuelson::apps::boxen_apps')
+
+  include $boxen_apps
 
   package { 'Retina DisplayMenu':
     ensure   => installed,
