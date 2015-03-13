@@ -22,6 +22,7 @@ people::joshsamuelson::cask::casks:
   - twitterrific
   - utorrent   
 people::joshsamuelson::apps::boxen_apps:
+  - zsh
   - chrome
   - cloudapp
   - java

@@ -6,10 +6,6 @@ class people::joshsamuelson {
   include people::joshsamuelson::cask
   include people::joshsamuelson::preferences
 
-
-  # set my shell to zsh
-  include zsh
-
   # git config 
   git::config::global { 'user.name':
     value => 'Josh Samuelson',
