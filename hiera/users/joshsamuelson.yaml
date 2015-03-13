@@ -53,4 +53,15 @@ people::joshsamuelson::preferences::personal_prefs:
   - osx::global::tap_to_click
   - osx::disable_app_quarantine
   - osx::software_update
-
+people::joshsamuelson::brew::formulae:
+  - tree
+  - wget
+  - gnupg
+  - graphviz
+  - fontconfig
+  - fontforge
+  - imagemagick
+  - jasper
+  - tmux
+  - watch
+  - xorriso
