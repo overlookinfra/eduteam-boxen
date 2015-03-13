@@ -1,3 +1,5 @@
+---  
+osx::recovery_message { 'If found, please contact Josh Samuelson - josh@joshsamuelson.com 206.201.1742': }
 osx::dock::icon_size: 18
 osx::dock::hot_corners::bottom_left: Desktop
 osx::dock::hot_corners::bottom_right: Start Screen Saver
@@ -40,3 +42,15 @@ people::joshsamuelson::apps::boxen_apps:
   - vlc
   - copy
   - licecap
+people::joshsamuelson::preferences::personal_prefs:
+  - osx::dock::dim_hidden_apps
+  - osx::dock::autohide
+  - osx::dock::hot_corners
+  - osx::dock::icon_size
+  - osx::dock::position
+  - osx::global::disable_autocorrect
+  - osx::global::natural_mouse_scrolling
+  - osx::global::tap_to_click
+  - osx::disable_app_quarantine
+  - osx::software_update
+
