@@ -8,7 +8,6 @@ class people::joshsamuelson::brew {
     'fontforge',
     'imagemagick',
     'jasper',
-    'qemu',
     'tmux',
     'watch',
     'xorriso'
