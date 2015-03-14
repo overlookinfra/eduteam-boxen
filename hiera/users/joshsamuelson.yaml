@@ -31,7 +31,6 @@ people::joshsamuelson::cask::casks:
   - utorrent   
   - java
   - iterm2
-  - hipchat
   - tunnelblick
   - vagrant
   - virtualbox
