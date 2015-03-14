@@ -31,7 +31,7 @@ File {
 
 Package {
   provider => homebrew,
-  require  => [Class['homebrew'],Class['git']]
+  require  => Class['homebrew']
 }
 
 Repository {
