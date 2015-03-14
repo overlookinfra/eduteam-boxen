@@ -32,9 +32,8 @@ people::joshsamuelson::cask::casks:
   - vlc
   - google-chrome
   - licecap
-  - notational_velocity
+  - notational-velocity
   - evernote
-  - vmware-fusion
   # Packages that current don't work with cask + boxen
   # -------------------------------------------------
   #- atom
@@ -42,6 +41,7 @@ people::joshsamuelson::cask::casks:
   #- adobe-reader
   #- boot2docker
   #- virtualbox
+  #- vmware-fusion
 people::joshsamuelson::apps::boxen_apps:
   - zsh
   # FIXME add vagrant fusion provider, with license
