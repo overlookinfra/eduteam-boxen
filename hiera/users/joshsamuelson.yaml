@@ -33,15 +33,15 @@ people::joshsamuelson::cask::casks:
   - licecap
   - notational-velocity
   - evernote
+  - java
+  - adobe-reader
+  - boot2docker
+  - virtualbox
+  - vmware-fusion
+  - vagrant
   # Packages that current don't work with cask + boxen
   # -------------------------------------------------
   #- atom
-  #- java
-  #- adobe-reader
-  #- boot2docker
-  #- virtualbox
-  #- vmware-fusion
-  #- vagrant
 people::joshsamuelson::apps::boxen_apps:
   - zsh
   # FIXME add vagrant fusion provider, with license
@@ -65,7 +65,7 @@ people::joshsamuelson::brew::formulae:
   - fontconfig
   #- fontforge
   - imagemagick
-  - jasper
+  #- jasper
   - tmux
   - watch
   - xorriso
