@@ -10,7 +10,8 @@ people::joshsamuelson::cask::casks:
   - caffeine
   - mailbox
   - 1password
-  - adobe-reader
+  # Adobe Reader Cask requires user interaction
+  #- adobe-reader
   - mosh
   - dropbox
   - atom
