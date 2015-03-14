@@ -10,11 +10,8 @@ people::joshsamuelson::cask::casks:
   - caffeine
   - mailbox
   - 1password
-  # Adobe Reader Cask requires user interaction
-  #- adobe-reader
   - mosh
   - dropbox
-  - atom
   - steam
   - github
   - dash
@@ -30,7 +27,6 @@ people::joshsamuelson::cask::casks:
   - spectacle
   - twitterrific
   - utorrent   
-  - java
   - iterm2
   - tunnelblick
   - vagrant
@@ -41,6 +37,11 @@ people::joshsamuelson::cask::casks:
   - notational_velocity
   - evernote
   - vmware-fusion
+  # Packages that current don't work with cask + boxen
+  # -------------------------------------------------
+  #- atom
+  #- java
+  #- adobe-reader
 people::joshsamuelson::apps::boxen_apps:
   - zsh
   # FIXME add vagrant fusion provider, with license
