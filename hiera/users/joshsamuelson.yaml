@@ -46,6 +46,11 @@ people::joshsamuelson::apps::boxen_apps:
   - zsh
   # FIXME add vagrant fusion provider, with license
   - textual
+  - atom
+  - virtualbox
+  - vmware-fusion
+  - vagrant
+  - boot2docker
 people::joshsamuelson::preferences::personal_prefs:
   - osx::dock::dim_hidden_apps
   - osx::dock::autohide
