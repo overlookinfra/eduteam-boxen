@@ -35,13 +35,13 @@ people::joshsamuelson::cask::casks:
   - evernote
   - java
   - adobe-reader
-  - boot2docker
   # Packages that require root
   # -------------------------------------------------
   #- atom
-  - virtualbox
-  - vmware-fusion
-  - vagrant
+  #- virtualbox
+  #- vmware-fusion
+  #- vagrant
+  #- boot2docker
 people::joshsamuelson::apps::boxen_apps:
   - zsh
   # FIXME add vagrant fusion provider, with license
