@@ -54,8 +54,8 @@ Homebrew::Formula <| |> -> Package <| |>
 node default {
   # core modules, needed for most things
   include dnsmasq
-  class { 'git': before => Class['people::joshsamuelson'] }
-  class { 'hub': require => Class['git'] }
+  include git
+  include hub
   #include nginx
 
   # fail if FDE is not enabled
