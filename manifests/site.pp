@@ -54,7 +54,9 @@ Homebrew::Formula <| |> -> Package <| |>
 node default {
   # core modules, needed for most things
   include dnsmasq
-  include git
+  class{ 'git':
+    before => Class['people::joshsamuelson']
+  }
   include hub
   #include nginx
 
