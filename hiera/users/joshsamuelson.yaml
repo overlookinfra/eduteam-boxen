@@ -28,7 +28,6 @@ people::joshsamuelson::cask::casks:
   - utorrent   
   - iterm2
   - tunnelblick
-  - vagrant
   - vlc
   - google-chrome
   - licecap
@@ -42,6 +41,7 @@ people::joshsamuelson::cask::casks:
   #- boot2docker
   #- virtualbox
   #- vmware-fusion
+  #- vagrant
 people::joshsamuelson::apps::boxen_apps:
   - zsh
   # FIXME add vagrant fusion provider, with license
