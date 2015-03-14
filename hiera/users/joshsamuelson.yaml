@@ -21,28 +21,22 @@ people::joshsamuelson::cask::casks:
   #- spectacle
   #- twitterrific
   #- utorrent   
+  #- java
+  #- iterm2
+  #- hipchat
+  #- tunnelblick
+  #- vagrant
+  #- virtualbox
+  #- vlc
+  #- google-chrome
+  #- licecap
+  #- notational_velocity
+  #- evernote
+  #- vmware-fusion
 people::joshsamuelson::apps::boxen_apps:
   - zsh
-  - chrome
-  #- cloudapp
-  #- java
-  #- iterm2::stable
-  #- tunnelblick
-  #- hipchat
   # FIXME add vagrant fusion provider, with license
-  #- vagrant
-  #- better_touch_tools
-  # FIXME add rules/config for karabiner
-  #- karabiner
-  # FIXME add rules/config for seil
-  #- seil
-  #- silverlight
-  #- virtualbox
   #- textual
-  #- notational_velocity
-  #- vlc
-  #- copy
-  #- licecap
 people::joshsamuelson::preferences::personal_prefs:
   - osx::dock::dim_hidden_apps
   - osx::dock::autohide
