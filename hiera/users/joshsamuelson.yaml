@@ -34,10 +34,10 @@ people::joshsamuelson::cask::casks:
   - notational-velocity
   - evernote
   - java
-  - adobe-reader
   # Packages that require root
   # -------------------------------------------------
   #- atom
+  #- adobe-reader
   #- virtualbox
   #- vmware-fusion
   #- vagrant
@@ -45,6 +45,7 @@ people::joshsamuelson::cask::casks:
 people::joshsamuelson::apps::boxen_apps:
   - zsh
   # FIXME add vagrant fusion provider, with license
+  - adobe_reader
   - textual
   - atom
   - virtualbox
