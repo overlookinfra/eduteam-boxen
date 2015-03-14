@@ -6,7 +6,6 @@ osx::dock::hot_corners::bottom_right: Start Screen Saver
 osx::dock::position::position: left
 osx::global::natural_mouse_scrolling::enabled: true
 people::joshsamuelson::cask::casks:
-  - boot2docker
   - caffeine
   - mailbox
   - 1password
@@ -42,6 +41,7 @@ people::joshsamuelson::cask::casks:
   #- atom
   #- java
   #- adobe-reader
+  #- boot2docker
 people::joshsamuelson::apps::boxen_apps:
   - zsh
   # FIXME add vagrant fusion provider, with license
