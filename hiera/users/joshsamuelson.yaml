@@ -1,5 +1,5 @@
 ---  
-osx::recovery_message { 'If found, please contact Josh Samuelson - josh@joshsamuelson.com 206.201.1742': }
+osx::recovery_message: 'If found, please contact Josh Samuelson - josh@joshsamuelson.com 206.201.1742'
 osx::dock::icon_size: 18
 osx::dock::hot_corners::bottom_left: Desktop
 osx::dock::hot_corners::bottom_right: Start Screen Saver
