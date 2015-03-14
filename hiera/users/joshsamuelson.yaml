@@ -7,42 +7,42 @@ osx::dock::position::position: left
 osx::global::natural_mouse_scrolling::enabled: true
 people::joshsamuelson::cask::casks:
   - caffeine
-  - cord
-  - cyberduck
-  - day-o
-  - handbrakebatch
-  - hipchat
-  - launchbar
-  - macdown
-  - mplayer-osx-extended
-  - private-internet-access
-  - screenflow
-  - skype
-  - spectacle
-  - twitterrific
-  - utorrent   
+  #- cord
+  #- cyberduck
+  #- day-o
+  #- handbrakebatch
+  #- hipchat
+  #- launchbar
+  #- macdown
+  #- mplayer-osx-extended
+  #- private-internet-access
+  #- screenflow
+  #- skype
+  #- spectacle
+  #- twitterrific
+  #- utorrent   
 people::joshsamuelson::apps::boxen_apps:
   - zsh
   - chrome
-  - cloudapp
-  - java
-  - iterm2::stable
-  - tunnelblick
-  - hipchat
+  #- cloudapp
+  #- java
+  #- iterm2::stable
+  #- tunnelblick
+  #- hipchat
   # FIXME add vagrant fusion provider, with license
-  - vagrant
-  - better_touch_tools
+  #- vagrant
+  #- better_touch_tools
   # FIXME add rules/config for karabiner
-  - karabiner
+  #- karabiner
   # FIXME add rules/config for seil
-  - seil
-  - silverlight
-  - virtualbox
-  - textual
-  - notational_velocity
-  - vlc
-  - copy
-  - licecap
+  #- seil
+  #- silverlight
+  #- virtualbox
+  #- textual
+  #- notational_velocity
+  #- vlc
+  #- copy
+  #- licecap
 people::joshsamuelson::preferences::personal_prefs:
   - osx::dock::dim_hidden_apps
   - osx::dock::autohide
@@ -57,12 +57,12 @@ people::joshsamuelson::preferences::personal_prefs:
 people::joshsamuelson::brew::formulae:
   - tree
   - wget
-  - gnupg
-  - graphviz
-  - fontconfig
-  - fontforge
-  - imagemagick
-  - jasper
-  - tmux
-  - watch
-  - xorriso
+  #- gnupg
+  #- graphviz
+  #- fontconfig
+  #- fontforge
+  #- imagemagick
+  #- jasper
+  #- tmux
+  #- watch
+  #- xorriso
