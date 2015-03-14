@@ -6,37 +6,45 @@ osx::dock::hot_corners::bottom_right: Start Screen Saver
 osx::dock::position::position: left
 osx::global::natural_mouse_scrolling::enabled: true
 people::joshsamuelson::cask::casks:
+  - boot2docker
   - caffeine
-  #- cord
-  #- cyberduck
-  #- day-o
-  #- handbrakebatch
-  #- hipchat
-  #- launchbar
-  #- macdown
-  #- mplayer-osx-extended
-  #- private-internet-access
-  #- screenflow
-  #- skype
-  #- spectacle
-  #- twitterrific
-  #- utorrent   
-  #- java
-  #- iterm2
-  #- hipchat
-  #- tunnelblick
-  #- vagrant
-  #- virtualbox
-  #- vlc
-  #- google-chrome
-  #- licecap
-  #- notational_velocity
-  #- evernote
-  #- vmware-fusion
+  - mailbox
+  - 1password
+  - adobe-reader
+  - mosh
+  - dropbox
+  - atom
+  - steam
+  - github
+  - dash
+  - cord
+  - cyberduck
+  - day-o
+  - handbrakebatch
+  - hipchat
+  - launchbar
+  - macdown
+  - screenflow
+  - skype
+  - spectacle
+  - twitterrific
+  - utorrent   
+  - java
+  - iterm2
+  - hipchat
+  - tunnelblick
+  - vagrant
+  - virtualbox
+  - vlc
+  - google-chrome
+  - licecap
+  - notational_velocity
+  - evernote
+  - vmware-fusion
 people::joshsamuelson::apps::boxen_apps:
   - zsh
   # FIXME add vagrant fusion provider, with license
-  #- textual
+  - textual
 people::joshsamuelson::preferences::personal_prefs:
   - osx::dock::dim_hidden_apps
   - osx::dock::autohide
@@ -44,19 +52,19 @@ people::joshsamuelson::preferences::personal_prefs:
   - osx::dock::icon_size
   - osx::dock::position
   - osx::global::disable_autocorrect
-  - osx::global::natural_mouse_scrolling
-  - osx::global::tap_to_click
+  #- osx::global::natural_mouse_scrolling
+  #- osx::global::tap_to_click
   - osx::disable_app_quarantine
-  - osx::software_update
+  #- osx::software_update
 people::joshsamuelson::brew::formulae:
   - tree
   - wget
-  #- gnupg
-  #- graphviz
-  #- fontconfig
-  #- fontforge
-  #- imagemagick
-  #- jasper
-  #- tmux
-  #- watch
-  #- xorriso
+  - gnupg
+  - graphviz
+  - fontconfig
+  - fontforge
+  - imagemagick
+  - jasper
+  - tmux
+  - watch
+  - xorriso
