@@ -29,7 +29,6 @@ people::joshsamuelson::cask::casks:
   - iterm2
   - tunnelblick
   - vagrant
-  - virtualbox
   - vlc
   - google-chrome
   - licecap
@@ -42,6 +41,7 @@ people::joshsamuelson::cask::casks:
   #- java
   #- adobe-reader
   #- boot2docker
+  #- virtualbox
 people::joshsamuelson::apps::boxen_apps:
   - zsh
   # FIXME add vagrant fusion provider, with license
@@ -63,7 +63,7 @@ people::joshsamuelson::brew::formulae:
   - gnupg
   - graphviz
   - fontconfig
-  - fontforge
+  #- fontforge
   - imagemagick
   - jasper
   - tmux
