@@ -81,4 +81,5 @@ github "notational_velocity", "1.1.2"
 github "vlc",    "1.1.0"
 github "copy", "1.0.0"
 github "licecap", "1.0.1"
+github "atom"
 

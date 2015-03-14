@@ -48,9 +48,8 @@ people::joshsamuelson::apps::boxen_apps:
   - textual
   - atom
   - virtualbox
-  - vmware-fusion
+  - vmware_fusion
   - vagrant
-  - boot2docker
 people::joshsamuelson::preferences::personal_prefs:
   - osx::dock::dim_hidden_apps
   - osx::dock::autohide
