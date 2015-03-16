@@ -8,7 +8,6 @@ osx::global::natural_mouse_scrolling::enabled: true
 people::joshsamuelson::cask::casks:
   - caffeine
   - mailbox
-  - 1password
   - dropbox
   - steam
   - dash
