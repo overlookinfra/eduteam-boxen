@@ -1,11 +1,11 @@
 ---  
-osx::recovery_message: 'If found, please contact Josh Samuelson - josh@joshsamuelson.com 206.201.1742'
+osx::recovery_message: 'If found, please contact ...'
 osx::dock::icon_size: 18
 osx::dock::hot_corners::bottom_left: Desktop
 osx::dock::hot_corners::bottom_right: Start Screen Saver
 osx::dock::position::position: left
 osx::global::natural_mouse_scrolling::enabled: true
-people::joshsamuelson::cask::casks:
+people::defaultuser::cask::casks:
   - caffeine
   - mailbox
   - dropbox
@@ -38,7 +38,7 @@ people::joshsamuelson::cask::casks:
   #- vagrant
   #- boot2docker
   #- java
-people::joshsamuelson::apps::boxen_apps:
+people::defaultuser::apps::boxen_apps:
   - zsh
   # FIXME add vagrant fusion provider, with license
   - adobe_reader
@@ -47,7 +47,7 @@ people::joshsamuelson::apps::boxen_apps:
   - virtualbox
   - vmware_fusion
   - vagrant
-people::joshsamuelson::preferences::personal_prefs:
+people::defaultuser::preferences::personal_prefs:
   - osx::dock::dim_hidden_apps
   - osx::dock::autohide
   - osx::dock::hot_corners
@@ -58,15 +58,13 @@ people::joshsamuelson::preferences::personal_prefs:
   #- osx::global::tap_to_click
   - osx::disable_app_quarantine
   #- osx::software_update
-people::joshsamuelson::brew::formulae:
+people::defaultuser::brew::formulae:
   - tree
   - wget
   - gnupg
   - graphviz
   - fontconfig
-  #- fontforge
   - imagemagick
-  #- jasper
   - tmux
   - watch
   - xorriso

@@ -1,8 +1,8 @@
-class people::joshsamuelson::cask {
+class people::defaultuser::cask {
 
   include brewcask
 
-  $casks = hiera('people::joshsamuelson::cask::casks')
+  $casks = hiera('people::defaultuser::cask::casks')
 
   package { $casks:
     ensure => installed,
