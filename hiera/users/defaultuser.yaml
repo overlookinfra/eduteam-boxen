@@ -1,0 +1,70 @@
+---  
+osx::recovery_message: 'If found, please contact ...'
+osx::dock::icon_size: 18
+osx::dock::hot_corners::bottom_left: Desktop
+osx::dock::hot_corners::bottom_right: Start Screen Saver
+osx::dock::position::position: left
+osx::global::natural_mouse_scrolling::enabled: true
+people::defaultuser::cask::casks:
+  - caffeine
+  - mailbox
+  - dropbox
+  - steam
+  - dash
+  - cord
+  - cyberduck
+  - day-o
+  - handbrakebatch
+  - hipchat
+  - launchbar
+  - macdown
+  - screenflow
+  - spectacle
+  - twitterrific
+  - utorrent   
+  - iterm2
+  - tunnelblick
+  - vlc
+  - google-chrome
+  - licecap
+  - notational-velocity
+  - evernote
+  # Packages that require root
+  # -------------------------------------------------
+  #- atom
+  #- adobe-reader
+  #- virtualbox
+  #- vmware-fusion
+  #- vagrant
+  #- boot2docker
+  #- java
+people::defaultuser::apps::boxen_apps:
+  - zsh
+  # FIXME add vagrant fusion provider, with license
+  - adobe_reader
+  - java
+  - textual
+  - virtualbox
+  - vmware_fusion
+  - vagrant
+people::defaultuser::preferences::personal_prefs:
+  - osx::dock::dim_hidden_apps
+  - osx::dock::autohide
+  - osx::dock::hot_corners
+  - osx::dock::icon_size
+  - osx::dock::position
+  - osx::global::disable_autocorrect
+  #- osx::global::natural_mouse_scrolling
+  #- osx::global::tap_to_click
+  - osx::disable_app_quarantine
+  #- osx::software_update
+people::defaultuser::brew::formulae:
+  - tree
+  - wget
+  - gnupg
+  - graphviz
+  - fontconfig
+  - imagemagick
+  - tmux
+  - watch
+  - xorriso
