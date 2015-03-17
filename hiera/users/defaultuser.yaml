@@ -6,29 +6,25 @@ osx::dock::hot_corners::bottom_right: Start Screen Saver
 osx::dock::position::position: left
 osx::global::natural_mouse_scrolling::enabled: true
 people::defaultuser::cask::casks:
-  - caffeine
-  - mailbox
-  - dropbox
-  - steam
-  - dash
-  - cord
-  - cyberduck
-  - day-o
-  - handbrakebatch
+  #- caffeine
+  #- dropbox
+  #- dash
+  #- cord
+  #- day-o
   - hipchat
-  - launchbar
-  - macdown
-  - screenflow
-  - spectacle
-  - twitterrific
-  - utorrent   
+  #- launchbar
+  #- macdown
+  #- screenflow
+  #- spectacle
   - iterm2
-  - tunnelblick
-  - vlc
+  #- tunnelblick
+  #- vlc
   - google-chrome
-  - licecap
-  - notational-velocity
-  - evernote
+  #- licecap
+  #- notational-velocity
+  #- evernote
+  - qlmarkdown
+  - qlstephen
   # Packages that require root
   # -------------------------------------------------
   #- atom
@@ -41,9 +37,9 @@ people::defaultuser::cask::casks:
 people::defaultuser::apps::boxen_apps:
   - zsh
   # FIXME add vagrant fusion provider, with license
-  - adobe_reader
-  - java
-  - textual
+  #- adobe_reader
+  #- java
+  #- textual
   - virtualbox
   - vmware_fusion
   - vagrant
